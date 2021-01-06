@@ -10,6 +10,10 @@
   --bcg-clor-team: #f5f4fa;
   --bcg-color-footer: #2f303a;
   --bcg-color-button: #2196f3;
+  --bcg-filter-botton: #f5f4fa;
+  --activ-filter-botton: #2196f3;
+  --text-hover-filter-botton: #ffffff;
+  --text-filter-botton: #212121;
 }
 
 .body {
@@ -82,4 +86,18 @@
 }
 .mail-tel .link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*portfolio.html*/
+.filter-botton {
+  background: var(--bcg-filter-botton);
+  color: var(--text-filter-botton);
+}
+.filter-botton:hover,
+.filter-botton:focus {
+  background: var(--activ-filter-botton);
+  color: var(--text-hover-filter-botton);
+}
+.projects .titel {
+  color: var(--titel-text-collor);
 }
