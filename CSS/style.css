@@ -1,0 +1,85 @@
+:root {
+  --primery-text-color: #757575;
+  --titel-text-collor: #212121;
+  --logo-text-collor: #212121;
+  --accent--color: #2196f3;
+  --hero-text-color: #ffffff;
+  --bcg-color-body: #e5e5e5;
+  --bcg-color-head: #ffffff;
+  --bcg-color-hero: #2f303a;
+  --bcg-clor-team: #f5f4fa;
+  --bcg-color-footer: #2f303a;
+  --bcg-color-button: #2196f3;
+}
+
+.body {
+  color: var(--primery-text-color);
+}
+.list {
+  list-style: none;
+}
+/*шапка*/
+.page-header {
+  background: var(--bcg-color-head);
+}
+.logo {
+  color: var(--accent--color);
+}
+.logo-color {
+  color: var(--logo-text-collor);
+}
+.site-nav .link {
+  color: var(--titel-text-collor);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent--color);
+}
+.site-nav .link.current {
+  color: var(--accent--color);
+}
+.auth-nav .link {
+  color: var(--titel-text-collor);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent--color);
+}
+/*герой*/
+.hero {
+  background: var(--bcg-color-hero);
+}
+.hero-titel {
+  color: var(--hero-text-color);
+}
+.button {
+  color: var(--hero-text-color);
+  background: var(--bcg-color-button);
+}
+/*Особенности*/
+.section-titel {
+  color: var(--titel-text-collor);
+}
+.feature-list .titel {
+  color: var(--titel-text-collor);
+}
+/*наша команда*/
+.section-team {
+  background: var(--bcg-clor-team);
+}
+.team-list .titel {
+  color: var(--titel-text-collor);
+}
+/*подвал*/
+.footer {
+  background: var(--bcg-color-footer);
+}
+.footer .logo-color {
+  color: #ffffff;
+}
+.address {
+  color: #ffffff;
+}
+.mail-tel .link {
+  color: rgba(255, 255, 255, 0.6);
+}
