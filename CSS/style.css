@@ -35,6 +35,10 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
 }
 .logo-color {
   color: var(--logo-text-collor);
