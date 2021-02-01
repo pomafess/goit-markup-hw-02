@@ -1,6 +1,6 @@
 :root {
   --primery-text-color: #757575;
-  --titel-text-collor: #212121;
+  --title-text-collor: #212121;
   --logo-text-collor: #212121;
   --accent--color: #2196f3;
   --hero-text-color: #ffffff;
@@ -20,11 +20,9 @@
   color: var(--primery-text-color);
   font-family: Roboto, sans-serif;
 }
-li {
-  list-style-type: none;
-}
+
 .list {
-  list-style: none;
+  list-style-type: none;
 }
 /*шапка*/
 .page-header {
@@ -47,7 +45,7 @@ li {
   color: var(--logo-text-collor);
 }
 .site-nav .link {
-  color: var(--titel-text-collor);
+  color: var(--title-text-collor);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -74,13 +72,14 @@ li {
   background: var(--bcg-color-hero);
   letter-spacing: 0.06em;
 }
-.hero-titel {
+.hero-title {
   color: var(--hero-text-color);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  text-transform: uppercase;
 }
 .button {
   color: var(--hero-text-color);
@@ -94,23 +93,23 @@ li {
   text-align: center;
 }
 /*Особенности*/
-.section-titel {
-  color: var(--titel-text-collor);
+.section-title {
+  color: var(--title-text-collor);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.feature-list .titel {
-  color: var(--titel-text-collor);
+.feature .title {
+  color: var(--title-text-collor);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.feature-list p {
+.feature .text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -120,14 +119,14 @@ li {
 .section-team {
   background: var(--bcg-clor-team);
 }
-.team-list .titel {
-  color: var(--titel-text-collor);
+.section-team .list .title {
+  color: var(--title-text-collor);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.team-list p {
+.section-team .list .profession {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -150,7 +149,7 @@ li {
   font-style: normal;
   text-decoration: none;
 }
-.address a {
+.address-map {
   color: #ffffff;
   text-decoration: none;
 }
@@ -178,8 +177,8 @@ li {
   background: var(--activ-filter-botton);
   color: var(--text-hover-filter-botton);
 }
-.projects .titel {
-  color: var(--titel-text-collor);
+.projects .title {
+  color: var(--title-text-collor);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
