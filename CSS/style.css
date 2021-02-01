@@ -177,6 +177,9 @@
   background: var(--activ-filter-botton);
   color: var(--text-hover-filter-botton);
 }
+.projects {
+  text-decoration: none;
+}
 .projects .title {
   color: var(--title-text-collor);
   font-weight: 700;
@@ -185,6 +188,7 @@
   letter-spacing: 0.06em;
 }
 .projects .text {
+  color: #757575;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
